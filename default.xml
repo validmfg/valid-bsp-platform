@@ -9,7 +9,7 @@
   <remote fetch="https://github.com/boundarydevices" name="boundary"/>
   <remote fetch="https://github.com/OSSystems" name="oss"/>
   <remote fetch="git://github.com/meta-qt5" name="meta-qt5-repo"/>
-  <remote fetch="git://github.com/validmfg" name="validmfg"/>
+  <remote fetch="https://github.com/validmfg" name="validmfg"/>
 
   <project remote="yocto" revision="krogoth" name="poky" path="sources/poky"/>
   <project remote="yocto" revision="krogoth" name="meta-fsl-arm" path="sources/meta-fsl-arm"/>
