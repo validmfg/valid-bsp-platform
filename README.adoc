@@ -13,9 +13,9 @@ Download the BSP source:
 
 [source,console]
 $: PATH=${PATH}:~/bin
-$: mkdir boundary-bsp
-$: cd boundary-bsp
-$: repo init -u https://github.com/boundarydevices/boundary-bsp-platform -b krogoth
+$: mkdir vds
+$: cd vds
+$: repo init -u https://github.com/validmfg/valid-bsp-platform -b krogoth
 $: repo sync
 
 At the end of the commands you have every metadata you need to start work with.
@@ -24,8 +24,8 @@ To start a simple image build:
 
 [source,console]
 $: source ./setup-environment build
-$: bitbake core-image-minimal
+$: bitbake valid-gic
 
 You can use any directory to host your build.
 
-The source code is checked out at `boundary-bsp/sources`.
+The source code is checked out at `vds/sources`.
