@@ -21,7 +21,8 @@
 	<copyfile dest="setup-environment" src="setup-environment"/>
   </project>
 
-  <project remote="freescale" revision="krogoth" name="meta-fsl-arm-extra" path="sources/meta-fsl-arm-extra"/>
+  <!-- Lock branch before switch to linux boundary 4.1.15 was made -->
+  <project remote="freescale" revision="e1a46d08f6bf479ae64e031d79b78b3bb608558b" name="meta-fsl-arm-extra" path="sources/meta-fsl-arm-extra"/>
   <project remote="freescale" revision="krogoth" name="Documentation" path="sources/Documentation"/>
   <!-- Lock to last master branch revision before the blacklist - Waiting for fix or krogoth branch -->
   <project remote="oss" revision="5882f0efb19f7428df3e170ffb08d5d654277382" name="meta-browser" path="sources/meta-browser"/>
